@@ -10,4 +10,10 @@ public class HelloWorldRestController {
     public String sayHello() {
         return "Hello World!";
     }
+
+    @GetMapping("/tania")
+    public String taniaC() {
+        return "Tania C!";
+    }
 }
+
